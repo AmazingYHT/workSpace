@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: com.cnaidun.user.api.policeUser.policeUser.PoliceUserApplicationTests
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 7.089 s - in com.cnaidun.user.api.policeUser.policeUser.PoliceUserApplicationTests
