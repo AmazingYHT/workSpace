@@ -17,9 +17,6 @@ import org.springframework.test.context.web.WebAppConfiguration;
 public class ScheduleApproveTaskApplication {
 
 	public static void main(String[] args) {
-	//	ConfigurableApplicationContext context =
 				SpringApplication.run(ScheduleApproveTaskApplication.class, args);
-	//	WxReceiver sms = context.getBean(WxReceiver.class);
-	//	sms.sendWx();
 	}
 }
