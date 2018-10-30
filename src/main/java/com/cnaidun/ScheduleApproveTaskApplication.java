@@ -11,14 +11,12 @@ import org.springframework.test.context.web.WebAppConfiguration;
 @SpringBootApplication
 		//(exclude = SecurityAutoConfiguration.class)
 //@EnableEurekaClient
-//@EnableFeignClients
+
 @WebAppConfiguration
 @MapperScan({"com.cnaidun.user.api.scheduleApproveTask.mapper","com.cnaidun.messageclient.controller"})
 public class ScheduleApproveTaskApplication {
-
+//@EnableFeignClients
 	public static void main(String[] args) {
 				SpringApplication.run(ScheduleApproveTaskApplication.class, args);
-		//@EnableEurekaClient
-//@EnableFeignClients
 	}
 }
