@@ -18,5 +18,7 @@ public class ScheduleApproveTaskApplication {
 
 	public static void main(String[] args) {
 				SpringApplication.run(ScheduleApproveTaskApplication.class, args);
+		//@EnableEurekaClient
+//@EnableFeignClients
 	}
 }
